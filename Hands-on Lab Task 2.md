@@ -40,7 +40,7 @@
   - DimReseller
   - DimSalesTerritory
 
-  <img src="images/get-data-from-SQL-Database-06.png" />
+    <img src="images/get-data-from-SQL-Database-06.png" />
 
 - **読み込み** をクリックして、データのインポートを実行
 
@@ -201,6 +201,8 @@
   ```
 
   ※左辺がメジャーの名前、この手順では Total Sales Amount の名前で作成
+
+  ※書式を米ドル、小数点以下 2 桁に設定
 
 - 同様の手順で 5 つのメジャーを作成
   - 注文のユニーク数を求める **Orders** メジャー
