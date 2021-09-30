@@ -6,6 +6,11 @@
 
 ### **INDEX**
 
+- [CSV ファイルからデータを取得](#CSV-ファイルからデータを取得)
+- [Excel ブックからデータを取得](#Excel-ブックからデータを取得)
+- [メジャーの作成](#メジャーの作成)
+- [レポートの作成](#レポートの作成)
+
 <br />
 
 ### **CSV ファイルからデータを取得**
@@ -110,7 +115,7 @@
 
   ※実行した処理はステップとして記録
 
-  <img src="Images/record-Operation-01.png" />
+  <img src="images/record-Operation-01.png" />
 
   ※ステップは追加・更新・削除が可
 
@@ -191,8 +196,6 @@
 - フィールドに **都道府県マスタ** が追加
 
   <img src="images/add-Prefecture-Master.png" />
-
-<br />
 
 - 画面左の **モデル** (<img src="images/icon-Model.png" width="15" />) をクリック
 
