@@ -16,15 +16,9 @@
 
     - アクセス層： Hot
 
-  - **SQL Database**
+  - **SQL Sever**
 
-    - コンピューティングとストレージ： 汎用目的、サーバーレス（第5世代,  1 vCore, 5GB ストレージ）
-
-    - バックアップ ストレージの冗長性： Local
-
-    - データベース名： ResellerSalesDW
-
-    - 照合順序： SQL_Latin1_General_CP1_CI_AS
+    - Azure サービスおよびリソースからのアクセス許可のファイアウォール ルールを追加
 
   <br />
 

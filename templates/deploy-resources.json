@@ -72,11 +72,11 @@
         {
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2020-10-01",
-            "name": "linkedTemplate-SQLDatabase",
+            "name": "linkedTemplate-SQLServer",
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://raw.githubusercontent.com/hiroyay-ms/Azure-Resources/main/templates/deploy-sqldatabase-generalpurpose.json",
+                    "uri": "https://raw.githubusercontent.com/hiroyay-ms/Azure-Resources/main/templates/deploy-sql-endpoint.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -88,18 +88,6 @@
                     },
                     "sqlAdministratorPassword": {
                         "value": "[parameters('sqlAdministratorPassword')]"
-                    },
-                    "skuName": {
-                        "value": "GP_S_Gen5_1"
-                    },
-                    "databaseName": {
-                        "value": "ResellerSalesDW"
-                    },
-                    "collation": {
-                        "value": "SQL_Latin1_General_CP1_CI_AS"
-                    },
-                    "backupStorage": {
-                        "value": "Local"
                     }
                 }
             }
